@@ -10,13 +10,11 @@ Essa analise tem objetivo de verificar a evolução de quantidade de computadore
 * **Seaborn:** Essa biblioteca é usada para visualização de dados.
 * **Matplotlib:** Essa biblioteca é usada para visualização de dados.
 
-<<<<<<< HEAD
+
+
 **Bases de Dados da Amazônia Legal e a das Regiãos do Brasil:** https://drive.google.com/drive/folders/1_rDjVkG64UrqbKG0xvvDpL8kPZbc1UuX?usp=drive_link
 
 **Microdados do Enem:** https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
-=======
-**Link das Bases de Dados:** https://drive.google.com/drive/folders/1_rDjVkG64UrqbKG0xvvDpL8kPZbc1UuX?usp=drive_link
->>>>>>> a19fcf237a0d7630ad3bbb247e703b82088fed27
 
 ### A Evolução da Quantidade de Computadores e as Disparidades Regionais no Brasil e na Amazônia
 A inclusão digital é um fator essencial para o desenvolvimento econômico, social e educacional de uma nação. A disponibilidade e o acesso a computadores em diferentes regiões refletem as condições socioeconômicas e o nível de infraestrutura tecnológica local. Nessa análise, discute a evolução da quantidade de computadores nas regiões brasileiras, com especial atenção para as disparidades entre elas, utilizando como base nos dados do INEP relacionados ao ENEM, que abrangem o período de 2015 a 2022. A análise foca tanto nas regiões que compõem a Amazônia Legal quanto nas cinco grandes regiões do Brasil.
