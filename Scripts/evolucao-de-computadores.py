@@ -29,10 +29,10 @@ import matplotlib.pyplot as plt
 
 #Carregar os dados dos Nomes do Municipios por Região
 
-regiao = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-computadores-enem-2015-2022/Dados/RegiãoPorCodigoMunicipio.csv")
+regiao = pd.read_csv("RegiãoPorCodigoMunicipio.csv")
 
 #Carregar os dados da Amazonia Legal
-amazonia = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-computadores-enem-2015-2022/Dados/CSV_Municipios_da_Amazonia_Legal_2022.csv")
+amazonia = pd.read_csv("CSV_Municipios_da_Amazonia_Legal_2022.csv")
 
 #A seguir, vamos carregar os microdados do ENEM (arquivo grande, processamento leva tempo) - eventualmente pode ser necessário executar localmente. Você irá mudar o caminho conforme tiver salvo na sua maquina os arquivos
 
@@ -44,7 +44,7 @@ amazonia = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-co
 #D-3
 #E-4 ou mais
 
-enem2022 = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-computadores-enem-2015-2022/Dados/2022_MICRODADOS_ENEM.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
+enem2022 = pd.read_csv("2022_MICRODADOS_ENEM.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
 enem2022.head()
 
 enem2022 = enem2022.dropna()
@@ -84,7 +84,7 @@ soma_computadores_regiao_amazonia2022
 #D-3
 #E-4 ou mais
 
-enem2021 = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-computadores-enem-2015-2022/Dados/MICRODADOS_ENEM_2021.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
+enem2021 = pd.read_csv("MICRODADOS_ENEM_2021.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
 enem2021.head()
 
 enem2021 = enem2021.dropna()
@@ -124,7 +124,7 @@ soma_computadores_regiao_amazonia2021
 #D-3
 #E-4 ou mais
 
-enem2020 = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-computadores-enem-2015-2022/Dados/MICRODADOS_ENEM_2020.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
+enem2020 = pd.read_csv("MICRODADOS_ENEM_2020.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
 enem2020.head()
 
 enem2020 = enem2020.dropna()
@@ -164,7 +164,7 @@ soma_computadores_regiao_amazonia2020
 #D-3
 #E-4 ou mais
 
-enem2019 = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-computadores-enem-2015-2022/Dados/MICRODADOS_ENEM_2019.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
+enem2019 = pd.read_csv("MICRODADOS_ENEM_2019.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
 enem2019.head()
 
 enem2019 = enem2019.dropna()
@@ -204,7 +204,7 @@ soma_computadores_regiao_amazonia2019
 #D-3
 #E-4 ou mais
 
-enem2018 = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-computadores-enem-2015-2022/Dados/MICRODADOS_ENEM_2018.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
+enem2018 = pd.read_csv("MICRODADOS_ENEM_2018.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
 enem2018.head()
 
 enem2018 = enem2018.dropna()
@@ -244,7 +244,7 @@ soma_computadores_regiao_amazonia2018
 #D-3
 #E-4 ou mais
 
-enem2017 = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-computadores-enem-2015-2022/Dados/MICRODADOS_ENEM_2017.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
+enem2017 = pd.read_csv("MICRODADOS_ENEM_2017.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
 enem2017.head()
 
 enem2017 = enem2017.dropna()
@@ -284,7 +284,7 @@ soma_computadores_regiao_amazonia2017
 #D-3
 #E-4 ou mais
 
-enem2016 = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-computadores-enem-2015-2022/Dados/MICRODADOS_ENEM_2016.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
+enem2016 = pd.read_csv("MICRODADOS_ENEM_2016.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
 enem2016.head()
 
 enem2016 = enem2016.dropna()
@@ -324,7 +324,7 @@ soma_computadores_regiao_amazonia2016
 #D-3
 #E-4 ou mais
 
-enem2015 = pd.read_csv("C:/Users/lucas/OneDrive/Área de Trabalho/evolucao-de-computadores-enem-2015-2022/Dados/MICRODADOS_ENEM_2015.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
+enem2015 = pd.read_csv("MICRODADOS_ENEM_2015.csv",sep=";",encoding="ISO-8859-1",usecols=['Q024','CO_MUNICIPIO_ESC'])
 enem2015.head()
 
 enem2015 = enem2015.dropna()
